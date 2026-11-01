@@ -1,0 +1,144 @@
+{
+  "FLOOD": {
+    "disasterType": "FLOOD",
+    "title": "Flood Emergency Safety & Evacuation Guidelines",
+    "instructions": [
+      "Move to higher ground and follow official evacuation instructions immediately.",
+      "Avoid walking, swimming, or driving through moving floodwater.",
+      "Stay away from rivers, drainage channels, flooded basements, and submerged electrical equipment.",
+      "Prepare drinking water, essential medicines, flashlight, emergency contacts, and important documents in a waterproof bag.",
+      "Follow official weather forecasts and local disaster management authority updates."
+    ],
+    "severity": "CRITICAL",
+    "source": "NDMA (National Disaster Management Authority) & Central Water Commission",
+    "emergencyHelplines": [
+      { "name": "National Emergency", "number": "112" },
+      { "name": "Disaster Response (NDRF)", "number": "1078" },
+      { "name": "Medical Emergency", "number": "108" }
+    ],
+    "lastReviewed": "2026-10-01"
+  },
+  "EARTHQUAKE": {
+    "disasterType": "EARTHQUAKE",
+    "title": "Earthquake Safety Protocols & Post-Tremor Guidelines",
+    "instructions": [
+      "During shaking: DROP to the ground, COVER your head under a sturdy desk or table, and HOLD ON tight.",
+      "After shaking stops, evacuate damaged buildings carefully when it is safe to do so.",
+      "Avoid standing near windows, heavy furniture, damaged structures, fallen power lines, or gas pipelines.",
+      "Expect aftershocks. Be prepared to Drop, Cover, and Hold On again.",
+      "Do NOT use elevators in damaged buildings after tremors."
+    ],
+    "severity": "HIGH",
+    "source": "NDMA & Geological Survey Guidelines",
+    "emergencyHelplines": [
+      { "name": "National Emergency", "number": "112" },
+      { "name": "Police Control Room", "number": "100" },
+      { "name": "Ambulance Response", "number": "102" }
+    ],
+    "lastReviewed": "2026-10-01"
+  },
+  "FIRE": {
+    "disasterType": "FIRE",
+    "title": "Fire Emergency Safety & Smoke Inhalation Avoidance",
+    "instructions": [
+      "Evacuate the affected area immediately using the nearest marked emergency exit.",
+      "If smoke is present, stay low to the floor and crawl under smoke toward safety.",
+      "Cover nose and mouth with a damp cloth to minimize toxic smoke inhalation.",
+      "Do NOT re-enter a burning or structurally compromised building for any reason.",
+      "Alert emergency services immediately and follow fire officials' instructions."
+    ],
+    "severity": "CRITICAL",
+    "source": "State Fire Services & Fire Safety Standard Directives",
+    "emergencyHelplines": [
+      { "name": "Fire Brigade", "number": "101" },
+      { "name": "National Emergency", "number": "112" },
+      { "name": "Ambulance", "number": "108" }
+    ],
+    "lastReviewed": "2026-10-01"
+  },
+  "CYCLONE": {
+    "disasterType": "CYCLONE",
+    "title": "Severe Cyclone & Storm Surge Advisory",
+    "instructions": [
+      "Follow official evacuation orders from weather authorities and local government.",
+      "Stay indoors in a secure interior room away from windows and glass doors during the storm.",
+      "Keep an emergency kit ready with drinking water, non-perishable food, medicines, battery radio, and charged phones.",
+      "Avoid coastal areas, flooded roads, weak structures, and fallen power lines.",
+      "Remain inside until emergency officials declare the eye of the storm and outer winds have safely passed."
+    ],
+    "severity": "HIGH",
+    "source": "IMD (India Meteorological Department) & Disaster Response Units",
+    "emergencyHelplines": [
+      { "name": "National Emergency", "number": "112" },
+      { "name": "Coast Guard Rescue", "number": "1554" },
+      { "name": "Disaster Helpline", "number": "1070" }
+    ],
+    "lastReviewed": "2026-10-01"
+  },
+  "LANDSLIDE": {
+    "disasterType": "LANDSLIDE",
+    "title": "Landslide Hazard & Slope Safety Advisory",
+    "instructions": [
+      "Move away quickly from slopes, hillsides, and areas showing signs of ground cracking or mud movement.",
+      "Avoid landslide debris flow channels, river valleys, and unstable mountain roads.",
+      "Listen for unusual sounds such as snapping trees or cracking boulders that indicate moving earth.",
+      "Follow official evacuation orders and move to stable, flat terrain immediately."
+    ],
+    "severity": "HIGH",
+    "source": "Geological Survey & Mountain Safety Protocol",
+    "emergencyHelplines": [
+      { "name": "National Emergency", "number": "112" },
+      { "name": "State Disaster Control", "number": "1070" }
+    ],
+    "lastReviewed": "2026-10-01"
+  },
+  "CHEMICAL_SPILL": {
+    "disasterType": "CHEMICAL_SPILL",
+    "title": "Hazardous Chemical Spill & Toxic Gas Exposure Guidelines",
+    "instructions": [
+      "Move upwind and uphill away from the spill or gas cloud area immediately.",
+      "Shelter indoors if advised: close all windows, doors, and shut down air conditioning or ventilation units.",
+      "Do NOT touch, walk through, or inhale unknown chemical fumes or liquids.",
+      "Seek medical assistance immediately if exposed to toxic vapours or skin irritants."
+    ],
+    "severity": "CRITICAL",
+    "source": "Industrial Hazard & Chemical Safety Board",
+    "emergencyHelplines": [
+      { "name": "Hazmat Response", "number": "112" },
+      { "name": "Poison Control / Medical", "number": "108" }
+    ],
+    "lastReviewed": "2026-10-01"
+  },
+  "BUILDING_COLLAPSE": {
+    "disasterType": "BUILDING_COLLAPSE",
+    "title": "Structural Failure & Building Collapse Safety Guidelines",
+    "instructions": [
+      "Evacuate damaged or cracking structures immediately via safe stairways (do not use elevators).",
+      "Stay clear of falling masonry, glass, overhead wiring, and unstable walls.",
+      "If trapped inside debris: cover mouth with clothing, tap on pipes or walls to signal search teams, and conserve oxygen."
+    ],
+    "severity": "CRITICAL",
+    "source": "NDRF & Municipal Structural Safety Authority",
+    "emergencyHelplines": [
+      { "name": "NDRF Rescue Team", "number": "1078" },
+      { "name": "Fire & Rescue", "number": "101" }
+    ],
+    "lastReviewed": "2026-10-01"
+  },
+  "DEFAULT": {
+    "disasterType": "DEFAULT",
+    "title": "General Disaster Safety & Emergency Precautions",
+    "instructions": [
+      "Follow instructions issued by local emergency management officials and law enforcement.",
+      "Keep location sharing active on your mobile device for rapid emergency responder dispatch.",
+      "Stay in a safe shelter away from immediate hazards and keep essential contacts ready."
+    ],
+    "severity": "MEDIUM",
+    "source": "ResQAI Emergency Command Center",
+    "emergencyHelplines": [
+      { "name": "National Emergency", "number": "112" },
+      { "name": "Disaster Helpline", "number": "1070" }
+    ],
+    "lastReviewed": "2026-10-01"
+  }
+}

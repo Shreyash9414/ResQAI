@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #0b0f19;
+    color: #f8fafc;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Clean Professional Surface Card Utilities */
+.surface-card {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+}
+
+.surface-card-hover {
+  transition: all 0.2s ease-in-out;
+}
+.surface-card-hover:hover {
+  border-color: #374151;
+  background-color: #162032;
+}
+
+/* Red Emergency Accent for Critical Status only */
+.emergency-badge {
+  background-color: #450a0a;
+  color: #f87171;
+  border: 1px solid #991b1b;
+}
+
+.glow-red {
+  box-shadow: 0 0 15px rgba(220, 38, 38, 0.25);
+}
+
+/* Radar pulse animation */
+.radar-ring {
+  position: absolute;
+  border: 2px solid rgba(239, 68, 68, 0.6);
+  border-radius: 50%;
+  animation: radarPing 2.5s infinite ease-out;
+}
+
+@keyframes radarPing {
+  0% {
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+  }
+  100% {
+    width: 140px;
+    height: 140px;
+    opacity: 0;
+  }
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1322;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f293d;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+
+/* Leaflet dark map customization */
+.leaflet-container {
+  background-color: #0b1120 !important;
+  font-family: inherit;
+}
+.leaflet-tile {
+  filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+}
+.leaflet-popup-content-wrapper {
+  background: #111827 !important;
+  color: #f1f5f9 !important;
+  border: 1px solid #374151;
+  border-radius: 8px !important;
+}
+.leaflet-popup-tip {
+  background: #111827 !important;
+}
+
+/* Smooth Leaflet Marker Motion Animation */
+.custom-leaflet-marker {
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), left 0.8s ease-out, top 0.8s ease-out !important;
+  will-change: transform;
+}
+.leaflet-marker-icon {
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), left 0.8s ease-out, top 0.8s ease-out !important;
+  will-change: transform;
+}
+
+.user-live-radar-marker {
+  background: transparent !important;
+  border: none !important;
+  overflow: visible !important;
+}
+
